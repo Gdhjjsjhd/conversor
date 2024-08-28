@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Unidades🐗</h1>
+
+    <div class="converter">
+        <label for="valor"> Valor:</label>
+        <input type="number" name="valor" id="valor">
+
+        <div class="container">
+            <div class="divisora">
+                <label for="distancia">De:</label>
+                <select name="distancia" id="deUnidadde"  class="distancia">
+                    <option value="cm">Cemtímetro</option>
+                    <option value="m">Metros</option>
+                    <option value="km">Quilômetros</option>
+                </select>
+
+
+                <label for="distancia2">Para:</label>
+                <select name="distancia2"  id="paraUnidade"  class="distancia">
+                    <option value="cm">Cemtímetro</option>
+                    <option value="m">Metros</option>
+                    <option value="km">Quilômetros</option>
+                </select>
+                <br>
+                <button>Converter</button>
+            </div>
+
+            <div class="divisora">
+                <label for="peso">De:</label>
+                <select name="peso" id="dePeso" class="peso">
+                    <option value="g">Gramas</option>
+                    <option value="kg">Quilogramas</option>
+                    <option value="lb">Libras</option>
+                </select>
+
+                <label for="peso2">Para:</label>
+                <select name="peso2" id="paraPeso" class="peso">
+                    <option value="g">Gramas</option>
+                    <option value="kg">Quilogramas</option>
+                    <option value="lb">Libras</option>
+                </select>
+                <br>
+                <button>Converter</button>     
+            </div>
+
+            <div class="divisora">
+                <label for="tempo">De:</label>
+                <select name="tempo" id="deTempo" class="tempo">
+                    <option value="seg">Segundos</option>
+                    <option value="min">Minutos</option>
+                    <option value="hr">Horas</option>
+                </select>
+
+                <label for="tempo2">Para:</label>
+                <select name="tempo2" id="paraTempo" class="tempo">
+                    <option value="seg">Segundos</option>
+                    <option value="min">Minutos</option>
+                    <option value="hr">Horas</option>
+                </select>
+                <br>
+                <button>Converter</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="resultado"></div>
+    
+</body>
+<script src="scipt.js"></script>
+</html>
